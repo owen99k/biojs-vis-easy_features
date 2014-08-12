@@ -7,11 +7,15 @@ module.exports =
 #
 class FeatureElement
 
-  constructor: (divName,features,featureWidth,maxLen,leftOffset) ->
+  constructor: (divName,features,featureWidth,fontSize,maxLen,leftOffset) ->
     # dirty hack
     Eventhandler.mixin FeatureElement.prototype
 
-    featureSpan = document.getElementById divName
+    # allow id as well as reference
+    if typeof divName is "string"
+      featureSpan = document.getElementById divName
+    else
+      featureSpan = divName
 
     # default values
     featureWidth = 10 unless featureWidth?

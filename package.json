@@ -1,11 +1,11 @@
 {
-  "name": "biojs-vis-easy-feature",
+  "name": "biojs-vis-easy_features",
   "description": "Easy way to display features",
-  "version": "0.0.1",
-  "homepage": "http://github.com/greenify/biojs-vis-easy-features",
+  "version": "0.0.2",
+  "homepage": "http://github.com/greenify/biojs-vis-easy_features",
   "repository": {
     "type": "git",
-    "url": "git://github.com/greenify/biojs-vis-easy-features"
+    "url": "git://github.com/greenify/biojs-vis-easy_features"
   },
   "author": {
     "name": "greenify",
