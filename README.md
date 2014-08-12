@@ -1,4 +1,4 @@
-biojs-vis-easy_features
+Easy features
 ==========
 
 A super simple feature component written in CoffeeScript. 
