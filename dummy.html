@@ -1,0 +1,22 @@
+<script src="build/biojs_vis_easy_features.min.js"></script>
+
+<div id='feature'></div>
+
+
+<script>
+var Feature = biojs.vis.easy_features.model;
+
+// features
+var f1 = new Feature(2,20,"easy", "red");
+var f2 = new Feature(5,20,"component", "green");
+var f3 = new Feature(21,30,"feature", "blue");
+
+
+var msa = new biojs.vis.easy_features.stage('feature',[f1,f2,f3]);
+
+msa.on("all", function(eventName, arg){
+	console.log(eventName)
+	console.log(arg)
+})
+
+</script>

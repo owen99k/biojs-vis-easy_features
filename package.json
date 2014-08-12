@@ -1,0 +1,46 @@
+{
+  "name": "biojs-vis-easy-feature",
+  "description": "Easy way to display features",
+  "version": "0.0.1",
+  "homepage": "http://github.com/greenify/biojs-vis-easy-features",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/greenify/biojs-vis-easy-features"
+  },
+  "author": {
+    "name": "greenify",
+    "email": "biojs-technical@googlegroups.com"
+  },
+  "dependencies": {
+    "biojs-events": "0.0.2"
+  },
+  "devDependencies": {
+    "browserify": "~4.2.0",
+    "coffee-script": "^1.7.1",
+    "coffeeify": "^0.7.0",
+    "coffeelint": "^1.5.4",
+    "gulp": "^3.8.7",
+    "gulp-browserify": "^0.5.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-coffeelint": "^0.3.3",
+    "gulp-mocha": "^0.5.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-watch": "^0.6.9",
+    "mkdirp": "^0.5.0",
+    "mocha": "^1.21.4",
+    "uglify-js": "~2.4.15",
+    "watchify": "^1.0.1"
+  },
+  "keywords": [
+    "bio", "features"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "npm test && npm run build-browser && coffee --bare --compile --output lib/ src/",
+    "watch": "mkdir -p build; watchify -v -t coffeeify --extension='.coffee' browser.js -o build/biojs_vis_easy_features.min.js",
+    "build-browser": "gulp build-browser",
+    "build-browser-cli": "mkdir -p build; browserify -t coffeeify --extension='.coffee'  browser.js > build/biojs_vis_easy_features.min.js"
+  },
+  "license": "Apache 2"
+}
