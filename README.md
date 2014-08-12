@@ -1,17 +1,17 @@
-biojs-vis-easy_feature
+biojs-vis-easy_features
 ==========
 
 A super simple feature component written in CoffeeScript. 
 
-[![Build Status](https://drone.io/github.com/greenify/biojs-vis-easy_feature/status.png)](https://drone.io/github.com/greenify/biojs-vis-easy_feature/latest)
-[![NPM version](http://img.shields.io/npm/v/biojs-vis-easy_feature.svg)](https://www.npmjs.org/package/biojs-vis-easy_feature)
-[![Dependencies](https://david-dm.org/greenify/biojs-vis-easy_feature.png)](https://david-dm.org/greenify/biojs-vis-easy_feature)
-[![Code Climate](https://codeclimate.com/github/greenify/biojs-vis-easy_feature/badges/gpa.svg)](https://codeclimate.com/github/greenify/biojs-vis-easy_feature)
-[![NPM downloads](http://img.shields.io/npm/dm/biojs-vis-easy_feature.svg)](https://www.npmjs.org/package/biojs-vis-easy_feature)
+[![Build Status](https://drone.io/github.com/greenify/biojs-vis-easy_features/status.png)](https://drone.io/github.com/greenify/biojs-vis-easy_features/latest)
+[![NPM version](http://img.shields.io/npm/v/biojs-vis-easy_features.svg)](https://www.npmjs.org/package/biojs-vis-easy_features)
+[![Dependencies](https://david-dm.org/greenify/biojs-vis-easy_features.png)](https://david-dm.org/greenify/biojs-vis-easy_features)
+[![Code Climate](https://codeclimate.com/github/greenify/biojs-vis-easy_features/badges/gpa.svg)](https://codeclimate.com/github/greenify/biojs-vis-easy_features)
+[![NPM downloads](http://img.shields.io/npm/dm/biojs-vis-easy_features.svg)](https://www.npmjs.org/package/biojs-vis-easy_features)
 
 ![example](http://i.imgur.com/tbubDoB.png "Easy feature component")
 
-You can __fetch prebuilt files__ [here](https://drone.io/github.com/greenify/biojs-vis-easy_feature/files)
+You can __fetch prebuilt files__ [here](https://drone.io/github.com/greenify/biojs-vis-easy_features/files)
 
 Example
 --------------
@@ -43,8 +43,8 @@ npm
 Yes you can just require this with npm.
 
 ```
-var Feature = require("biojs-vis-easy_feature").model;
-var stage = require("biojs-vis-easy_feature").stage;
+var Feature = require("biojs-vis-easy_features").model;
+var stage = require("biojs-vis-easy_features").stage;
 ```
 
 
