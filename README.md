@@ -11,6 +11,8 @@ A super simple feature component written in CoffeeScript.
 
 ![example](http://i.imgur.com/tbubDoB.png "Easy feature component")
 
+You can __fetch prebuilt files__ [here](https://drone.io/github.com/greenify/biojs-vis-easy_feature/files)
+
 Example
 --------------
 
@@ -45,4 +47,27 @@ var Feature = require("biojs-vis-easy_feature").model;
 var stage = require("biojs-vis-easy_feature").stage;
 ```
 
-You can __fetch prebuilt files__ [here](https://drone.io/github.com/greenify/biojs-vis-easy_feature/files)
+
+Feature object
+--------------
+
+Constructor:
+
+```
+new Feature(xStart, xEnd, text, fillColor)
+```
+
+Entire object with default values.
+
+```
+xStart: -1
+xEnd: -1
+height: -1
+text: ""
+fillColor: "red"
+fillOpacity: 0.5
+type: "rectangle"
+borderSize: 1
+borderColor: "black"
+borderOpacity: 0.5
+```
