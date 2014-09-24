@@ -1,7 +1,7 @@
 {
   "name": "biojs-vis-easy_features",
   "description": "Easy way to display features",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://github.com/greenify/biojs-vis-easy_features",
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "watchify": "^1.0.1"
   },
   "keywords": [
-    "bio",
+    "biojs",
     "features"
   ],
   "main": "lib/index.js",
